@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    // const arr = [2,3,4,5,66,66,7,8,9,8,7]
+    // // const newSet = [...new Set(arr)]
+    // // console.log(newSet)
+    // const s = new Set()
+    // arr.forEach(item => {
+    //     s.add(item)
+    // })
+    // console.log(s)
+    // function quchong(arr) {
+    //     const arrNew = [];
+    //     for (let item of arr) {
+    //         if(arrNew.indexOf(item) === -1) {
+    //             arrNew.push(item)
+    //         }
+    //     }
+    //     return arrNew
+    // }
+    // console.log(quchong(arr))
+    // const arr = new Set(['za1','za2','za3','za1','za2'])
+    // console.log(Array.from(arr))
+    // function quchong(arr) {
+    //     return Array.from(new Set(arr))
+    // }
+    // console.log(quchong(arr))
+    // const s = new Set(['jj','kk','dd'])
+    // console.log(s.keys())
+    // console.log(s.values())
+    // console.log(s.entries())
+    // s.forEach(item => {
+    //     console.log(item)
+    // })
+    // const m = new Map([[{a:1}, 1], ["aa", 2]])
+    // console.dir(m)
+    // const set = new Set([
+    //     ['foo',1],
+    //     ['bar',2]
+    // ])
+    // console.log(set)
+    // let a = {
+    //     aa: 1,
+    //     bb: 2,
+    //     cc: 3,
+    //     dd: {
+    //         ee: 5,
+    //     },
+    //     ff: {
+    //         gg: 6,
+    //     }
+    // };
+    // let d = JSON.parse(JSON.stringify(a));//深复制包含子对象
+    // let c = {...a};//深拷贝单不包含子对象
+    // let b = a;//浅拷贝
+    // b.bb = 22;
+    // c.cc = 33;
+    // c.dd.ee = 55;
+    // d.ff.gg = 66;
+    // console.log(a);
+    // console.log(b);
+    // console.log(c);
+    // console.log(d);
+    const yibu = function() {
+        return new Promise((resolve,reject) => {
+            if(false) {
+                resolve({name: 'zs666',age: 12})
+            } else {
+                reject(999)
+            }
+        })
+    }
+    const get = (url,params) => {
+        return axios.get(url,{params: params})
+    }
+    yibu().then(res =>{
+        console.log(res)
+    }).then(res => {
+        console.log(res)
+    })
+</script>

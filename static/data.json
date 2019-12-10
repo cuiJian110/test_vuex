@@ -1,0 +1,10 @@
+{
+    "code": 200,
+    "msg": [
+        {"id": 1, "name": "zs1", "price": 10, "num": 1, "isChecked": false},
+        {"id": 2, "name": "zs2", "price": 10, "num": 1, "isChecked": true},
+        {"id": 3, "name": "zs3", "price": 10, "num": 1, "isChecked": false},
+        {"id": 4, "name": "zs4", "price": 10, "num": 1, "isChecked": false},
+        {"id": 5, "name": "zs5", "price": 10, "num": 1, "isChecked": false}
+    ]
+}
